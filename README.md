@@ -28,30 +28,37 @@ Agora que o Docker já está na sua máquina, vamos começar.
 
 ## Como começar 
 Clonando o repositório 
-
 ```
 git clone git@github.com:eduardoKatsurayama/valorant-datalake.git 
 ```
 
 Entrando no repositório
-
 ```
 cd valorant-datalake/ 
 ```
 
+### DotEnv
+
+Create .env
+```
+cp ./samples/.env.sample ./.env
+```
+
+Complete env content
+```
+vim ./.env
+```
 
 ### DockerFile
 
 [Dockerfile](https://docs.docker.com/engine/reference/builder/) é um arquivo de texto simples que consiste em instruções para criar imagens do Docker.
 
 Criando imagem Docker
-
 ```
 docker build -t dev-env .
 ```
 
 Agora vamos criar um container com a imagem dev-env
-
 ```
 docker run -it --rm -v ${pwd}:/volume dev-env
 ```
