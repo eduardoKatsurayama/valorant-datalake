@@ -37,14 +37,14 @@ Entrando no repositório
 cd valorant-datalake/ 
 ```
 
-### DotEnv
+### Como configurar suas variáveis de ambiente
 
-Create .env
+Criando .env
 ```
 cp ./samples/.env.sample ./.env
 ```
 
-Complete env content
+Abrindo env com o vim
 ```
 vim ./.env
 ```
