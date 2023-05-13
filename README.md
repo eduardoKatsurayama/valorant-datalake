@@ -19,12 +19,12 @@ Um Data Lake que coleta dados da API da [Riot](https://developer.riotgames.com/a
 
 
 ## Como Começar
-É necessario que tenha o Docker instalado, caso não tenha basta seguir as intruções a seguir:
+É necessário que tenha o Docker instalado, caso não tenha basta seguir as instruções a seguir:
   * [Docker no Windows](https://learn.microsoft.com/pt-br/virtualization/windowscontainers/manage-docker/configure-docker-daemon)
   * [Docker no Linux](https://docs.docker.com/engine/install/ubuntu/)
   * [Docker no MacOs](https://docs.docker.com/desktop/install/mac-install/)
 
-Agora que o Docker ja esta na sua maquina, vamos começar.
+Agora que o Docker já está na sua máquina, vamos começar.
 
 ## Como começar 
 Clonando o repositório 
@@ -33,7 +33,7 @@ Clonando o repositório
 git clone git@github.com:eduardoKatsurayama/valorant-datalake.git 
 ```
 
-Entrando no repositorio
+Entrando no repositório
 
 ```
 cd valorant-datalake/ 
@@ -53,7 +53,7 @@ docker build -t dev-env .
 Agora vamos criar um container com a imagem dev-env
 
 ```
-docker run -it --rm -v /${pwd}:/volume dev-env
+docker run -it --rm -v ${pwd}:/volume dev-env
 ```
 
 ## Como Contribuir
