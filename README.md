@@ -44,7 +44,7 @@ Criando .env
 cp ./samples/.env.sample ./.env
 ```
 
-Abrindo env com o vim
+Abra o .env e preencha as variáveis  
 ```
 vim ./.env
 ```
