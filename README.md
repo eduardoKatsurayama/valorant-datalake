@@ -53,7 +53,7 @@ docker build -t dev-env .
 Agora vamos criar um container com a imagem dev-env
 
 ```
-docker run -it --rm -v ${pwd}:/volume dev-env
+docker run -it --rm -v /${pwd}:/volume dev-env
 ```
 
 ## Como Contribuir
